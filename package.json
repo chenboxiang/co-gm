@@ -1,0 +1,36 @@
+{
+    "name": "co-gm",
+    "version": "0.1.0",
+    "description": "gm module thunk wrapper for \"co\"",
+    "main": "index.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chenboxiang/co-gm"
+    },
+    "keywords": [
+        "co", "gm"
+    ],
+    "author": "chenboxiang <gozap.chenboxiang@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/chenboxiang/co-gm/issues"
+    },
+    "homepage": "https://github.com/chenboxiang/co-gm",
+    "devDependencies": {
+        "blanket": "1.1.6",
+        "expect.js": "0.3.1",
+        "mocha": "1.20.1"
+    },
+    "dependencies": {
+        "gm": "1.16.0",
+        "thunkify-wrap": "0.1.2"
+    },
+    "config": {
+        "blanket": {
+            "pattern": "index.js"
+        }
+    }
+}
