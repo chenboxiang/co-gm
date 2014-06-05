@@ -9,6 +9,10 @@ npm:
 $ npm install co-gm
 ```
 
+## history
+
+* 0.1.0: 2014-06-05
+
 ## License
 
 MIT
